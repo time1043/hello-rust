@@ -1,0 +1,9 @@
+[package]
+name = "hello-rocket"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rocket = { version = "0.5.0-rc.2", features = ["json"] }
+# rocket = { version = "0.5.0-rc.2", features = ["secrets", "tls", "json"] }
+# rocket = "0.5.0-rc.1"

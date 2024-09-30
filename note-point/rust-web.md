@@ -2,16 +2,18 @@
 
 - 网站开发框架
 
-  [`Rocket0.5`](https://rocket.rs/)：大型项目，易学；更新太慢
+  [`Rocket0.5`](https://rocket.rs/)：大型项目，*生产稳定*，*文档优秀*，*上手简单*；更新太慢 
 
-  [`Actix`](https://actix.rs/)：大型项目，性能超好，现在少unsafe且支持Tokio
+  [`Actix`](https://actix.rs/)：大型项目，性能超好，现在少unsafe且支持Tokio；代码质量有争议，代码风格不稳定 
 
-  [`Warp`](https://github.com/seanmonstar/warp)：微型项目
+  [`Warp`](https://github.com/seanmonstar/warp)：*微型项目*，基于hyper框架实现，*性能优秀*；文档聊胜于无
 
-  [`Axum`](https://github.com/tokio-rs/axum)：
+  [`Axum`](https://github.com/tokio-rs/axum)：Tokio出品；不成熟
 
-  [`Salvo`](https://salvo.rs/)： 
+  [`Tide`](https://docs.rs/tide/latest/tide/)：源码的优秀设计实现；非Tokio系(async-std)
 
+  [`Salvo`](https://salvo.rs/)：中文出品
+  
   
 
 ---

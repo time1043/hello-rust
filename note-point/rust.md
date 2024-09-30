@@ -8,7 +8,11 @@
   
 - Reference - course
 
-  [WordScenesTV](https://www.bilibili.com/video/BV1xz421a7ea/), [Muli_Official](https://www.bilibili.com/video/BV16e411n7h4/), [YuanZi](https://www.bilibili.com/video/BV1fF411n7nE/), [Forever-me](https://www.bilibili.com/video/BV1eK4y1b7DE/)
+  [WordScenesTV](https://www.bilibili.com/video/BV1xz421a7ea/), [Muli_Official](https://www.bilibili.com/video/BV16e411n7h4/), [YuanZi](https://www.bilibili.com/video/BV1fF411n7nE/), [Forever-me](https://www.bilibili.com/video/BV1eK4y1b7DE/), 
+  
+- Reference - blog
+
+  [QingWa](https://blog.frognew.com/2020/07/rust-basis-learning-notes-01.html) 
 
 
 
@@ -60,59 +64,49 @@
 
   包管理器：cargo
 
-  
-
-
-
-- rustc win
-
   ```bash
+  # #################################################
   # install
+  # #################################################
+  
+  # win install
   # rustup-init.exe
-  # wsl
+  
+  # wsl install 
   curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
   
+  # linux install
+  curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
   
+  
+  # #################################################
   # check
+  # #################################################
+  
   rustc --version  # rustc 1.76.0 (07dca489a 2024-02-04)
   cargo --version  # cargo 1.76.0 (c84b36747 2024-01-18)
+  
   # check path
-  echo %PATH%  # cmd
-  echo $env:Path  # ps
+  echo %PATH%  # win cmd
+  echo $env:Path  # win ps
+  echo $PATH  # linux 
   
   
+  # #################################################
+  # update uninstall 
+  # #################################################
+  rustup update
+  rustup self uninstall
   
+  
+  # #################################################
   # doc
+  # #################################################
   rustup doc  # file:///C:/Users/huangyingzhu/.rustup/...
   cargo doc --open
   
   ```
   
-- rustc linux
-
-  ```bash
-  # install
-  curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
-  
-  
-  # check
-  rustc --version  
-  cargo --version  
-  # check path
-  echo $PATH
-  
-  
-  # update uninstall 
-  rustup update
-  rustup self uninstall
-  
-  
-  # doc
-  rustup doc
-  cargo doc --open
-  
-  ```
-
   
 
 
