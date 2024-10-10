@@ -4,7 +4,7 @@
 
 - Reference - dev
 
-  [salvo](https://salvo.rs/zh-hant/), [wordbook github](https://github.com/za-songguo/wordbook), 
+  [salvo](https://salvo.rs/zh-hant/), [wordbook github](https://github.com/za-songguo/wordbook), [course](https://www.bilibili.com/video/BV1HW4y1K737/)
 
   
 
