@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    {# comments F12NO #}
+    <!-- comments F12YES -->
+
+    <h1>{{ message }}</h1>
+    <p>{% raw %} {{ message }} {% endraw %}</p>
+
+    {%- set name = "oswin" -%}
+    <p>{{ message~name }}</p>
+    <p>{{ "rust" in "trust" }}</p>
+
+    {% if "rust" in "trust" %} rust {% else %} nothing {% endif %}
+  </body>
+</html>
